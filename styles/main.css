@@ -1,8 +1,8 @@
 *{
-  -ms-box-sizing : border-box;
-  -webkit-box-sizing : border-box;
-  -moz-box-sizing : border-box;
-  box-sizing: border-box;
+	-ms-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+    box-sizing: border-box;
 }
 
 img.main{
@@ -12,6 +12,10 @@ img.main{
 
 img.lower-main{
 	width: 100%;
+}
+
+.row{
+	margin-bottom: 50px;
 }
 
 p#name1{
@@ -51,6 +55,7 @@ div.roboto{
 	font-family: 'Roboto', sans-serif;
 	font-size: 35px;
 	color: #afa1a1;
+	margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 992px){
